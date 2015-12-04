@@ -5,22 +5,6 @@ from pymongo import Connection
 from models import Birds
 from serializers import BirdsSerializer
 from rest_framework import status
-'''
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework import parsers
-from rest_framework import renderers
-from rest_framework_mongoengine.serializers import DocumentSerializer
-from .models import BusinessCardInfo
-from .serializers import BusinessCardInfoSerializer
-from rest_framework_mongoengine.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
-from bson import json_util, ObjectId
-import json
-from mongoengine import *
-'''
-
-
 
 @csrf_exempt
 @api_view(['GET','POST','DELETE'])
